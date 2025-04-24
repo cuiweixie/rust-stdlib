@@ -1,0 +1,22 @@
+[package]
+name = "rust-stdlib"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "iterator"
+path = "src/iterator.rs"
+
+[[bin]]
+name = "stdlib"
+path = "src/main.rs"
+
+[[bin]]
+name = "mutex"
+path = "src/mutex.rs"
+
+[[bin]]
+name = "rwlock"
+path = "src/rwlock.rs"
+
+[dependencies]
