@@ -19,4 +19,8 @@ path = "src/mutex.rs"
 name = "rwlock"
 path = "src/rwlock.rs"
 
+[[bin]]
+name = "once_lock"
+path = "src/once_lock.rs"
+
 [dependencies]
