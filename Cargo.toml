@@ -23,4 +23,9 @@ path = "src/rwlock.rs"
 name = "once_lock"
 path = "src/once_lock.rs"
 
+[[bin]]
+name = "try_trait"
+path = "src/try_trait.rs"
+
+
 [dependencies]
