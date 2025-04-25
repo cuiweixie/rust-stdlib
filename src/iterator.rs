@@ -1,5 +1,6 @@
 
 
+#[allow(dead_code)]
 fn main() {
     let v1 = vec![1, 2, 3];
     let v1_into_iter = v1.into_iter();
